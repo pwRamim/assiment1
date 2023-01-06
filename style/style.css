@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.main-banner-section {
+  background: url(../images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  background-position: 100% 100%;
+}
+
+/* main banner style */
+.main-banner {
+  width: 1140px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+  margin: 0 auto;
+}
+.blank-div {
+  width: 100%;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  background: #fff;
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 15px 18px;
+}
+
+/* failure of life section style*/
+.main-section {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.failure {
+  display: flex;
+  gap: 87px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.failure-item-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failure-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.failure-item .item ul li {
+  list-style-type: none;
+  margin-bottom: 16px;
+  color: #444343;
+}
+.failure-item .item ul li i {
+  color: #16d887;
+  font-weight: bold;
+}
+
+/* plan section style */
+.plan{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.plan-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+.plan-title{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.plan-item-tiele{
+    color: #151414;
+    font-weight: 700;
+font-size: 30px;
+margin-bottom: 16px;
+}
+.plan-item-description{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+}
